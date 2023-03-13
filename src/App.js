@@ -5,37 +5,21 @@ import './App.css';
 function App() {
   return (
     <Fragment>
+<html lang="en">
 
 <body>
 
 <header id="header" class="fixed-top header-scrolled">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+      <h1 class="logo"><a href="index.html">Website & Portfolio</a></h1>
       <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto active" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#work">Work</a></li>
-          <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
+          <li><a class="nav-link scrollto" href="#work">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#services">Learning</a></li>
+          <li><a class="nav-link scrollto" href="#blog">Interests</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -45,6 +29,19 @@ function App() {
 
 
   <main id="main">
+
+  <div id="hero" class="hero route bg-image" src="/images/unsplash.jpg" alt="" height="500px" width="1100px">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <p class="display-6 color-d">Kaj Tassi</p>
+          <h1 class="hero-title mb-4">Web Developer</h1>
+           <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section id="about" class="about-mf sect-pt4 route">
       <div class="container">
@@ -61,30 +58,30 @@ function App() {
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
-                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
+                        <p><span class="title-s">Name: </span> <span>Kaj Tassi</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>KajTassi63@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(650) 291-6792</span></p>
                       </div>
                     </div>
                   </div>
                   <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
+                    <p class="title-s">Skills & Comfort Level</p>
+                    <span>HTML</span> <span class="pull-right">80%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span> <span class="pull-right">75%</span>
+                    <span>CSS3</span> <span class="pull-right">70%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PHP</span> <span class="pull-right">50%</span>
+                    <span>JavaScript</span> <span class="pull-right">70%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                    <span>PostgreSQL</span> <span class="pull-right">55%</span>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -96,20 +93,22 @@ function App() {
                       </h5>
                     </div>
                     <p class="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                      imperdiet et, porttitor
-                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                      porttitor accumsan tincidunt.
+                      I am a San Diego based web developer, and I have been learning full stack web development for just over a year now. 
+                      It something I am passionate about, and I try to spend at least a few hours everyday working on new projects and learning
+                      new skills. I have been primarly working with JavaScript, HTML5, CSS3, Node.js,
+                      React.js, Express.js and PostgreSQL. 
                     </p>
                     <p class="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                      As an oppurtunity to learn and help others, I am taking on volunteer web development projects for an educational
+                      daycare and have a few other projects planned in the future. I primarly do front-end react.js based projects or full
+                      stack web applications at the moment. I have all of my completed projects listed below, but am hoping to go back and 
+                      improve on a lot of them with new features as I continue to grow as a developer. 
                     </p>
                     <p class="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                      For my backround, I have spent the last few years in property management and love working and colaborating with others.
+                      In regards to software engineering, I have been learning independantly and was also a graduate of Thinkful's 6 month 
+                      online full stack engineering program in November 2022. There is a lot to learn with programming though, and I try to spend
+                      a few hours everyday learning new things. 
                     </p>
                   </div>
                 </div>
@@ -121,10 +120,447 @@ function App() {
     </section>
 
 
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Projects and their descriptions, follow the github links for tools and more information. 
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Resturante Reservation App</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View Project</span> / <span class="w-date">Live website and full stack application utilizing data tables for a hypothetical resturante.
+                      Was the final project for Thinkful's online program</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Pumping Iron, Tracking App</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View Project</span> / <span class="w-date">Full stack appliaction built my brother to track weight lifting records. I wanted another oppurtunity
+                      to work on a fullstack application for fun.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Big Steps Webpage</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View Project</span> / <span class="w-date">Currently it is in the outline stage, and I still
+                      need to decide on content and pictures with the client. Will be a webpage for an educational daycare.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Flashcard App</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View Project</span> / <span class="w-date">Frontend application built using React.js for make
+                      a flashcard deck for studying. It was a good oppurtunity to practice components in other components.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">We Love Movies</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View Project</span> / <span class="w-date">An Express.js application making use of data tables;
+                      built to link into a hypothetical frontend and passed KNEX based tests.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Recipe Creation App</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View Project</span> / <span class="w-date">First React.js based application, it can store recipes
+                      and add new ones. React.js has become one of my favorite framesworks that I use often.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Learning Goals
+              </h3>
+              <p class="subtitle-a">
+                I am in progress learning the following skills and features below.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">AWS certification</h2>
+                <p class="s-description text-center">
+                  I spend 30 minutes to an hour everyday learning and studying for an AWS certification. Being the most
+                  common cloud service, I thought it would be a great place to start. I am hoping to have my certification 
+                  completed soon and would like to use AWS to launch future web applications. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">TypeScript & Python</h2>
+                <p class="s-description text-center">
+                  I am focusing on adding these two languages to my skill set. I have learned a lot about Python previously
+                  and would like to integrate it soon in a backend focused project. TypeScript has been easier because of 
+                  its simularity to JavaScript, and it has taught more about an object orineted programming approach.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Improving Web Features</h2>
+                <p class="s-description text-center">
+                  The next web feature I am working on would be adding log ins to a website as a means to save individual
+                  user information. I would like to impliment this in the weight lifting score tracking app I have already 
+                  made; and also believe it is a great feature to be familiar with.  
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Interests
+              </h3>
+              <p class="subtitle-a">
+                A little more info about me, and what I like to do in freetime. 
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">Traveling</a></h3>
+                <p class="card-description">
+                  I love to take trips once or twice a year with my wife. Our favorite places to visit have been
+                  Spain, Italy and Hawaii so far, but we still have a lot of places left to see and our hoping to visit New Zealond soon!
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle" />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">Surfing</a></h3>
+                <p class="card-description">
+                  One of my favorite things to do being located in San Diego is to spend time at the beach and in the water.
+                  I am a morning person and usually up early to be able to get out in the water when the sun comes up. 
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle" />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+              
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">Software Engineering</a></h3>
+                <p class="card-description">
+                  Orinally it was computer games that took up a lot of my time; but that is what lead
+                  me to programming and now I spend a lot of my time
+                  after work and on my days off working on learning and projects.  
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle" />
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Me a Message
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="" />
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="" />
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="" />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Feel free to reach out about anything related to programming, software engineering, web development,
+                        or web based design. I am always open to working with others and looking to plan out new projects.
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> Location: San Diego, California</li>
+                        <li><span class="bi bi-phone"></span> (650) 291-6792</li>
+                        <li><span class="bi bi-envelope"></span> kajtassi63@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://github.com/KajTassi"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/kaj-tassi-9142b873/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     </main>
 
-</body>
+    <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
+</body>
+</html>
     </Fragment>
   );
 }
