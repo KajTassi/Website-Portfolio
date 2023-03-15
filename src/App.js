@@ -30,7 +30,7 @@ function App() {
 
   <main id="main">
 
-  <div id="hero" class="hero route bg-image" src="/images/unsplash.jpg" alt="" height="500px" width="1100px">
+  <div id="hero" class="hero route bg-image" src="images/unsplash.jpg" alt="" height="500px" width="1100px">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -140,7 +140,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid" />
+                  <img src="images/Homerest.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -165,7 +165,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid" />
+                  <img src="images/PumpingIron.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -190,7 +190,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid" />
+                  <img src="images/biggersteps.JPG" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -215,7 +215,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid" />
+                  <img src="images/flashcard.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -240,7 +240,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid" />
+                  <img src="images/Welovemov.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -265,7 +265,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid" />
+                  <img src="images/Recipe.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -286,7 +286,6 @@ function App() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -330,8 +329,8 @@ function App() {
               <div class="service-content">
                 <h2 class="s-title">TypeScript & Python</h2>
                 <p class="s-description text-center">
-                  I am focusing on adding these two languages to my skill set. I have learned a lot about Python previously
-                  and would like to integrate it soon in a backend focused project. TypeScript has been easier because of 
+                  I am focusing on adding TypeScript and Python languages to my skill set. I have learned a lot about Python previously
+                  and would like to integrate it soon in a backend focused project. TypeScript has been easier to pick up because of 
                   its simularity to JavaScript, and it has taught more about an object orineted programming approach.
                 </p>
               </div>
@@ -376,7 +375,7 @@ function App() {
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid" /></a>
+                <a href="blog-single.html"><img src="images/kaj1.jpg" alt="" class="img-fluid" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -390,12 +389,9 @@ function App() {
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle" />
-                    <span class="author">Morgan Freeman</span>
+                    <img src="images/kaj1.jpg" alt="" class="avatar rounded-circle" />
+                    <span class="author">Picture from Italy trip</span>
                   </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
                 </div>
               </div>
             </div>
@@ -403,7 +399,7 @@ function App() {
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid" /></a>
+                <a href="blog-single.html"><img src="images/surfededit.jpg" alt="" class="img-fluid" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -431,7 +427,7 @@ function App() {
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid" /></a>
+                <a href="blog-single.html"><img src="images/computer.jpg" alt="" class="img-fluid" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
