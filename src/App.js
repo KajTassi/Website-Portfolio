@@ -27,11 +27,10 @@ function App() {
     </div>
   </header>
 
-
   <main id="main">
 
-  <div id="hero" class="hero route bg-image" src="images/unsplash.jpg" alt="" height="500px" width="1100px">
-    <div class="overlay-itro"></div>
+  <div id="hero" class="hero route bg-image" src="images/unsplash.jpg" alt="" height="800px" width="1100px" >
+    <div class="overlay-itro"> <img src="images/blacksand.jpg" class="img-fluid rounded b-shadow-a" height="800px" alt="" /> </div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
@@ -140,7 +139,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/Homerest.jpg" alt="" class="img-fluid" />
+                  <img src="images/restresq.jpg" height="500px" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -165,7 +164,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/PumpingIron.jpg" alt="" class="img-fluid" />
+                  <img src="images/Pumpingironsq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -190,7 +189,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/biggersteps.JPG" alt="" class="img-fluid" />
+                  <img src="images/biggerstepssq.JPG" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -215,7 +214,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/flashcard.jpg" alt="" class="img-fluid" />
+                  <img src="images/flashcardsq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -240,7 +239,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/Welovemov.jpg" alt="" class="img-fluid" />
+                  <img src="images/moviessq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -265,7 +264,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/Recipe.jpg" alt="" class="img-fluid" />
+                  <img src="images/recipesq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
@@ -375,7 +374,7 @@ function App() {
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="images/kaj1.jpg" alt="" class="img-fluid" /></a>
+                <a href="blog-single.html"><img src="images/travelsq.jpg" alt="" class="img-fluid" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -399,7 +398,7 @@ function App() {
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="images/surfededit.jpg" alt="" class="img-fluid" /></a>
+                <a href="blog-single.html"><img src="images/surfsq.jpg" alt="" class="img-fluid" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -427,7 +426,7 @@ function App() {
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="images/computer.jpg" alt="" class="img-fluid" /></a>
+                <a href="blog-single.html"><img src="images/computersq.jpg" alt="" class="img-fluid" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
