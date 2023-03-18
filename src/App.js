@@ -30,7 +30,7 @@ function App() {
   <main id="main">
 
   <div id="hero" class="hero route bg-image" src="images/unsplash.jpg" alt="" height="800px" width="1100px" >
-    <div class="overlay-itro"> <img src="images/blacksand.jpg" class="img-fluid rounded b-shadow-a" height="800px" alt="" /> </div>
+    <div class="overlay-itro"> <img src="images/blacksands.jpg" class="img-fluid rounded b-shadow-a" height="800px" alt="" /> </div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
