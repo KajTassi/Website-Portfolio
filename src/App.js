@@ -30,7 +30,7 @@ function App() {
   <main id="main">
 
   <div id="hero" class="hero route bg-image" src="images/unsplash.jpg" alt="" height="800px" width="1100px" >
-    <div class="overlay-itro"> <img src="images/blacksands.jpg" class="img-fluid rounded b-shadow-a" height="800px" alt="" /> </div>
+    <div class="overlay-itro"> <img src="images/blacksand.jpg" class="img-fluid rounded b-shadow-a" height="800px" alt="" /> </div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
@@ -66,7 +66,7 @@ function App() {
                   </div>
                   <div class="skill-mf">
                     <p class="title-s">Skills & Comfort Level</p>
-                    <span>HTML</span> <span class="pull-right">80%</span>
+                    <span>HTML5</span> <span class="pull-right">80%</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -128,7 +128,7 @@ function App() {
                 Portfolio
               </h3>
               <p class="subtitle-a">
-                Projects and their descriptions, follow the github links for tools and more information. 
+                Projects and their descriptions, follow the github links for tools in the projects and more information. 
               </p>
               <div class="line-mf"></div>
             </div>
@@ -137,7 +137,7 @@ function App() {
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://front-end-three-sand.vercel.app/dashboard" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="images/restresq.jpg" height="500px" alt="" class="img-fluid" />
                 </div>
@@ -147,7 +147,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">Resturante Reservation App</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">View Project</span> / <span class="w-date">Live website and full stack application utilizing data tables for a hypothetical resturante.
+                    <a class="w-ctegory" href="https://github.com/KajTassi/Resturante-Res" type="text">View Project</a> / <span class="w-date">Live website and full stack application utilizing data tables for a hypothetical resturante.
                       Was the final project for Thinkful's online program</span>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">Pumping Iron, Tracking App</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">View Project</span> / <span class="w-date">Full stack appliaction built my brother to track weight lifting records. I wanted another oppurtunity
+                    <a class="w-ctegory" href="https://github.com/KajTassi/ToDoList" type="text">View Project</a> / <span class="w-date">Full stack appliaction built my brother to track weight lifting records. I wanted another oppurtunity
                       to work on a fullstack application for fun.</span>
                     </div>
                   </div>
@@ -197,7 +197,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">Big Steps Webpage</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">View Project</span> / <span class="w-date">Currently it is in the outline stage, and I still
+                    <a class="w-ctegory" href="https://github.com/KajTassi/BigStepsM" type="text">View Project</a> / <span class="w-date">Currently it is in the outline stage, and I still
                       need to decide on content and pictures with the client. Will be a webpage for an educational daycare.</span>
                     </div>
                   </div>
@@ -221,8 +221,8 @@ function App() {
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Flashcard App</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">View Project</span> / <span class="w-date">Frontend application built using React.js for make
+                    <div class="w-more"> 
+                    <a class="w-ctegory" href="https://github.com/KajTassi/Flashcard-application" type="text">View Project</a> / <span class="w-date">Frontend application built using React.js for make
                       a flashcard deck for studying. It was a good oppurtunity to practice components in other components.</span>
                     </div>
                   </div>
@@ -247,7 +247,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">We Love Movies</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">View Project</span> / <span class="w-date">An Express.js application making use of data tables;
+                    <a class="w-ctegory" href="https://github.com/KajTassi/Movies-movies" type="text">View Project</a> / <span class="w-date">An Express.js application making use of data tables;
                       built to link into a hypothetical frontend and passed KNEX based tests.</span>
                     </div>
                   </div>
@@ -272,7 +272,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">Recipe Creation App</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">View Project</span> / <span class="w-date">First React.js based application, it can store recipes
+                    <a class="w-ctegory" href="https://github.com/KajTassi/Recipe-App" type="text">View Project</a> / <span class="w-date">First React.js based application, it can store recipes
                       and add new ones. React.js has become one of my favorite framesworks that I use often.</span>
                     </div>
                   </div>
@@ -387,10 +387,9 @@ function App() {
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
-                    <img src="images/kaj1.jpg" alt="" class="avatar rounded-circle" />
-                    <span class="author">Picture from Italy trip</span>
-                  </a>
+                  
+                    <span class="author">Rome, Italy</span>
+                  
                 </div>
               </div>
             </div>
@@ -412,13 +411,11 @@ function App() {
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle" />
-                    <span class="author">Morgan Freeman</span>
-                  </a>
+                  
+                    <span class="author">La Jolla, San Diego</span>
+                 
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
                 </div>
               </div>
             </div>
@@ -441,13 +438,12 @@ function App() {
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle" />
-                    <span class="author">Morgan Freeman</span>
-                  </a>
+                 
+                    <span class="author">* NA</span>
+                  
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock"></span>
                 </div>
               </div>
             </div>
@@ -544,10 +540,7 @@ function App() {
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
+            
           </div>
         </div>
       </div>
