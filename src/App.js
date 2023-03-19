@@ -92,22 +92,21 @@ function App() {
                       </h5>
                     </div>
                     <p class="lead">
-                      I am a San Diego based web developer, and I have been learning full stack web development for just over a year now. 
-                      It something I am passionate about, and I try to spend at least a few hours everyday working on new projects and learning
-                      new skills. I have been primarly working with JavaScript, HTML5, CSS3, Node.js,
-                      React.js, Express.js and PostgreSQL. 
+                      My name is Kaj Tass, and I am a San Diego based web developer. I started learning full-stack web development in early 2022 and
+                      I spend at least a few hours everyday working on projects, languages and new web features.
+                      I have been primarly working with JavaScript, HTML5, CSS3, Node.js, React.js, Express.js and PostgreSQL. 
                     </p>
                     <p class="lead">
-                      As an oppurtunity to learn and help others, I am taking on volunteer web development projects for an educational
-                      daycare and have a few other projects planned in the future. I primarly do front-end react.js based projects or full
-                      stack web applications at the moment. I have all of my completed projects listed below, but am hoping to go back and 
-                      improve on a lot of them with new features as I continue to grow as a developer. 
+                      As an oppurtunity to learn and help others, I am taking on a volunteer web development project for an educational
+                      daycare and have a few other personal and professional projects planned in the future. I primarly do React.js based full stack 
+                      web applications at the moment but but am learning other languages and framesworks too. I have all of my current projects listed below,
+                      and am looking forward to improving some of my completed work. 
                     </p>
                     <p class="lead">
                       For my backround, I have spent the last few years in property management and love working and colaborating with others.
                       In regards to software engineering, I have been learning independantly and was also a graduate of Thinkful's 6 month 
-                      online full stack engineering program in November 2022. There is a lot to learn with programming though, and I try to spend
-                      a few hours everyday learning new things. 
+                      online full stack engineering program in November 2022. There is a lot to learn with programming though, and have been enjoying
+                      learning new things everyday. 
                     </p>
                   </div>
                 </div>
@@ -128,7 +127,7 @@ function App() {
                 Portfolio
               </h3>
               <p class="subtitle-a">
-                Projects and their descriptions, follow the github links for tools in the projects and more information. 
+                Current projects and their descriptions, follow the github links for tools in the projects and more information. 
               </p>
               <div class="line-mf"></div>
             </div>
@@ -172,8 +171,8 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">Pumping Iron, Tracking App</h2>
                     <div class="w-more">
-                    <a class="w-ctegory" href="https://github.com/KajTassi/ToDoList" type="text">View Project</a> / <span class="w-date">Full stack appliaction built my brother to track weight lifting records. I wanted another oppurtunity
-                      to work on a fullstack application for fun.</span>
+                    <a class="w-ctegory" href="https://github.com/KajTassi/ToDoList" type="text">View Project</a> / <span class="w-date">Full stack appliaction built for my brother to track weight lifting records. I wanted another oppurtunity
+                      to work on a full stack application.</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -222,7 +221,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">Flashcard App</h2>
                     <div class="w-more"> 
-                    <a class="w-ctegory" href="https://github.com/KajTassi/Flashcard-application" type="text">View Project</a> / <span class="w-date">Frontend application built using React.js for make
+                    <a class="w-ctegory" href="https://github.com/KajTassi/Flashcard-application" type="text">View Project</a> / <span class="w-date">Frontend application built using React.js for making
                       a flashcard deck for studying. It was a good oppurtunity to practice components in other components.</span>
                     </div>
                   </div>
@@ -406,7 +405,7 @@ function App() {
                 <h3 class="card-title"><a href="blog-single.html">Surfing</a></h3>
                 <p class="card-description">
                   One of my favorite things to do being located in San Diego is to spend time at the beach and in the water.
-                  I am a morning person and usually up early to be able to get out in the water when the sun comes up. 
+                  I am a morning person and usually up early to be able to get out surfing when the sun comes up. 
                 </p>
               </div>
               <div class="card-footer">
