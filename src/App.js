@@ -1,8 +1,21 @@
-import React, {Fragment} from "react";
+import React, {Fragment, useRef } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import emailjs from '@emailjs/browser';
 
 function App() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+        'service_wxk7fxi', 
+        'template_7dijwtb', 
+        e.target,
+        'meUuVWBcqHqD9aVvQ'
+        ).then(res=>{
+            console.log(res);
+        }).catch(err=> console.log(err));
+}
   return (
     <Fragment>
 <html lang="en">
@@ -466,7 +479,7 @@ function App() {
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <form onSubmit={sendEmail}>
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -489,12 +502,14 @@ function App() {
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">Loading...</div>
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" class="button button-a button-big button-rouded"
+                            onSubmit={sendEmail}
+                            >Send Message</button>
                           </div>
                         </div>
                       </form>
