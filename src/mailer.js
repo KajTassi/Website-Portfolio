@@ -30,7 +30,7 @@ return (
 
                     <label>Message</label>
                     <textarea name="message" rows="4" />
-                    <input type="submit" vlue="Send" className="form-control" />
+                    <input type="submit" value="Send" className="form-control" />
                 </form>
         </div>
     );

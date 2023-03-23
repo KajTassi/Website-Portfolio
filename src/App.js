@@ -78,20 +78,24 @@ function App() {
                     </div>
                   </div>
                   <div class="skill-mf">
-                    <p class="title-s">Skills & Comfort Level</p>
-                    <span>HTML5</span> <span class="pull-right">80%</span>
+                    <p class="title-s">Programming Skills</p>
+                    <span>Most Proficient Languages</span> <span class="pull-right">:</span>
+                    <p>JavaScript, HTML5, CSS3, Node.js, PostgresSQL</p>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span> <span class="pull-right">70%</span>
+                    <span>Most Proficient framesworks</span> <span class="pull-right">:</span>
+                    <p>React.js, Bootstrap, Express.js</p>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JavaScript</span> <span class="pull-right">70%</span>
+                    <span>Tools</span> <span class="pull-right">:</span>
+                    <p>React.js, Bootstrap, Express.js, RESTful APIs, Git, Gitbash, Github, WordPress, Visual Studio Code</p>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PostgreSQL</span> <span class="pull-right">55%</span>
+                    <span>Secondary Skills</span> <span class="pull-right">:</span>
+                    <p>TypeScript, Python, AWS</p>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -479,7 +483,7 @@ function App() {
                       </h5>
                     </div>
                     <div>
-                      <form onSubmit={sendEmail}>
+                      <form onSubmit={sendEmail} value="Your message has been submitted">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -502,9 +506,9 @@ function App() {
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading...</div>
+                            <div class="loading"></div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Thank you for reaching out!</div>
                           </div>
                           <div class="col-md-12 text-center">
                             <button type="submit" class="button button-a button-big button-rouded"
