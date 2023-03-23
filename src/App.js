@@ -78,23 +78,23 @@ function App() {
                     </div>
                   </div>
                   <div class="skill-mf">
-                    <p class="title-s">Programming Skills</p>
-                    <span>Most Proficient Languages</span> <span class="pull-right">:</span>
+                    <p class="title-b">Programming Skills</p>
+                    <h6>Most Proficient Languages:</h6>
                     <p>JavaScript, HTML5, CSS3, Node.js, PostgresSQL</p>
                     <div class="progress">
                     <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>Most Proficient framesworks</span> <span class="pull-right">:</span>
+                    <h6>Most Proficient Frameworks:</h6>
                     <p>React.js, Bootstrap, Express.js</p>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>Tools</span> <span class="pull-right">:</span>
+                    <h6>Tools:</h6>
                     <p>React.js, Bootstrap, Express.js, RESTful APIs, Git, Gitbash, Github, WordPress, Visual Studio Code</p>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>Secondary Skills</span> <span class="pull-right">:</span>
+                    <h6>Secondary Skills:</h6>
                     <p>TypeScript, Python, AWS</p>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" width="75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -538,8 +538,8 @@ function App() {
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href="https://github.com/KajTassi"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/kaj-tassi-9142b873/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/KajTassi"><span class="ico-circle"><img src="images/github.png" alt="" class="img-fluid" /></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/kaj-tassi-9142b873/"><span class="ico-circle"><img src="images/linkedin2.png" alt="" class="img-fluid" /></span></a></li>
                       </ul>
                     </div>
                   </div>

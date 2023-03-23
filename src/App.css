@@ -180,6 +180,14 @@ a:hover {
   font-size: 1.1rem;
 }
 
+.title-b {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
