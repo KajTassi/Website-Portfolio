@@ -980,7 +980,7 @@ a:hover {
 # Portfolio
 --------------------------------------------------------------*/
 .work-box {
-  margin-bottom: 3rem;
+  margin-bottom: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
