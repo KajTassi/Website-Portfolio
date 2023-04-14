@@ -286,10 +286,10 @@ function App() {
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Recipe Creation App</h2>
+                    <h2 class="w-title">TypeScript Weather API</h2>
                     <div class="w-more">
-                    <a class="w-ctegory" href="https://github.com/KajTassi/Recipe-App" type="text">View Project</a> / <span class="w-date">First React.js based application, it can store recipes
-                      and add new ones. React.js has become one of my favorite framesworks that I use often.</span>
+                    <a class="w-ctegory" href="https://github.com/KajTassi/Recipe-App" type="text">View Project</a> / <span class="w-date">This is my most recent project, and was the
+                    first time I have used TypeScript and Tailwind CSS. It is a font end weather tracking application using API data.</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -346,7 +346,7 @@ function App() {
                 <p class="s-description text-center">
                   I am focusing on adding TypeScript and Python languages to my skill set. I have learned a lot about Python previously
                   and would like to integrate it soon in a backend focused project. TypeScript has been easier to pick up because of 
-                  its simularity to JavaScript, and it has taught more about an object orineted programming approach.
+                  its simularity to JavaScript, and I have recently completed my first web project with it.
                 </p>
               </div>
             </div>
