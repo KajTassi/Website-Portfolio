@@ -280,7 +280,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/recipesq.jpg" alt="" class="img-fluid" />
+                  <img src="images/Weather.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
