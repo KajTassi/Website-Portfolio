@@ -288,7 +288,7 @@ function App() {
                   <div class="col-sm-8">
                     <h2 class="w-title">TypeScript Weather API</h2>
                     <div class="w-more">
-                    <a class="w-ctegory" href="https://github.com/KajTassi/Recipe-App" type="text">View Project</a> / <span class="w-date">This is my most recent project, and was the
+                    <a class="w-ctegory" href="https://github.com/KajTassi/TypeScript-Weather-API" type="text">View Project</a> / <span class="w-date">This is my most recent project, and was the
                     first time I have used TypeScript and Tailwind CSS. It is a font end weather tracking application using API data.</span>
                     </div>
                   </div>
