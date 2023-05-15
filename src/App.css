@@ -788,7 +788,6 @@ a:hover {
 
 .hero .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: src("..public/images/unspash.jpg");
   position: absolute;
   top: 0;
   left: 0px;

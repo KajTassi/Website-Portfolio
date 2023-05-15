@@ -2,6 +2,7 @@ import React, {Fragment, useRef } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import emailjs from '@emailjs/browser';
+import helperJS from "./helper";
 
 function App() {
   function sendEmail(e) {
@@ -16,6 +17,7 @@ function App() {
             console.log(res);
         }).catch(err=> console.log(err));
 }
+
   return (
     <Fragment>
 <html lang="en">
@@ -42,8 +44,10 @@ function App() {
 
   <main id="main">
 
-  <div id="hero" class="hero route bg-image" src="images/unsplash.jpg" alt="" height="800px" width="1100px" >
-    <div class="overlay-itro"> <img src="images/blacksand.jpg" class="img-fluid rounded b-shadow-a" height="800px" alt="" /> </div>
+  <div id="hero" class="hero route bg-image"  >
+    <div class="overlay-itro"> 
+      <img src="images/blacksand.jpg" class="img-fluid rounded b-shadow-a" height="100%" width="100%" alt="" />
+    </div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
