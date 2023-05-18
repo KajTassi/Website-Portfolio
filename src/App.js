@@ -45,9 +45,7 @@ function App() {
   <main id="main">
 
   <div id="hero" class="hero route bg-image"  >
-    <div class="overlay-itro"> 
-      <img src="images/blacksand.jpg" class="img-fluid rounded b-shadow-a" height="100%" width="100%" alt="" />
-    </div>
+    <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
@@ -284,7 +282,7 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/Weather.jpg" alt="" class="img-fluid" />
+                  <img src="images/Weathersq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
