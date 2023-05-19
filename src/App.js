@@ -111,21 +111,19 @@ function App() {
                       </h5>
                     </div>
                     <p class="lead">
-                      My name is Kaj Tass, and I am a San Diego based web developer. I started learning full-stack web development in early 2022 and
-                      I spend at least a few hours everyday working on projects, languages and new web features.
-                      I have been primarly working with JavaScript, HTML5, CSS3, Node.js, React.js, Express.js and PostgreSQL. 
+                    My name is Kaj Tassi, and I am a San Diego based web developer. I started learning full-stack web development in early 2022 and I spend
+                    at least a few hours everyday working on projects, languages and new web features. I have been primarily working with JavaScript, HTML5,
+                    CSS3, Node.js, React.js, Express.js and PostgreSQL.
                     </p>
                     <p class="lead">
-                      As an oppurtunity to learn and help others, I am taking on a volunteer web development project for an educational
-                      daycare and have a few other personal and professional projects planned in the future. I primarly do React.js based full stack 
-                      web applications at the moment but but am learning other languages and framesworks too. I have all of my current projects listed below,
-                      and am looking forward to improving some of my completed work. 
+                    As an opportunity to learn and help others, I am taking on a volunteer web development project for an educational daycare and have a few
+                    other personal and professional projects planned in the future. I primarily do React.js based full stack web applications at the moment
+                    but I am learning other languages and frameworks too. I have all of my current projects listed below, and am looking forward to improving some of my completed work.
                     </p>
                     <p class="lead">
-                      For my backround, I have spent the last few years in property management and love working and colaborating with others.
-                      In regards to software engineering, I have been learning independantly and was also a graduate of Thinkful's 6 month 
-                      online full stack engineering program in November 2022. There is a lot to learn with programming though, and have been enjoying
-                      learning new things everyday. 
+                    For my background, I have spent the last few years in property management and love working and collaborating with others. In regards to software engineering,
+                    I have been learning independently and was also a graduate of Thinkful's 6 month online full stack engineering program in November 2022. There is a lot to learn with
+                    programming though, and have been enjoying learning new things everyday.
                     </p>
                   </div>
                 </div>
