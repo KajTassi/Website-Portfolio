@@ -180,16 +180,16 @@ function App() {
             <div class="work-box">
               <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/Pumpingironsq.jpg" alt="" class="img-fluid" />
+                  <img src="images/scoreboardsq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Pumping Iron, Tracking App</h2>
+                    <h2 class="w-title">Gameboard, Tic-Tac-Toe Tpp</h2>
                     <div class="w-more">
-                    <a class="w-ctegory" href="https://github.com/KajTassi/ToDoList" type="text">View Project</a> / <span class="w-date">Full stack appliaction built for my brother to track weight lifting records. I wanted another oppurtunity
-                      to work on a full stack application.</span>
+                    <a class="w-ctegory" href="https://github.com/KajTassi/tic-tac-game" type="text">View Project</a> / <span class="w-date">Is a one player game where you can play
+                    vs an AI that goes off an algorithm. The AI is beatable and it's behavior will vary.</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -253,18 +253,18 @@ function App() {
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="images/moviessq.jpg" alt="" class="img-fluid" />
+                  <img src="images/Pumpingironsq.jpg" alt="" class="img-fluid" />
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">We Love Movies</h2>
+                    <h2 class="w-title">Pumping Iron, Tracking App</h2>
                     <div class="w-more">
-                    <a class="w-ctegory" href="https://github.com/KajTassi/Movies-movies" type="text">View Project</a> / <span class="w-date">An Express.js application making use of data tables;
-                      built to link into a hypothetical frontend and passed KNEX based tests.</span>
+                    <a class="w-ctegory" href="https://github.com/KajTassi/ToDoList" type="text">View Project</a> / <span class="w-date">Full stack appliaction built for my brother to track weight lifting records. I wanted another oppurtunity
+                      to work on a full stack application.</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
